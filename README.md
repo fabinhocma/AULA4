@@ -1,0 +1,25 @@
+# AULA4
+EX4
+import java.util.Scanner;
+
+ class Main{
+  public static void main(String[] args){
+    int n1, n2, n3, n4 , n5 = 0;
+    Scanner teste = new Scanner (System.in);
+    System.out.println("Digite a primera nota");
+    n1 = teste.nextInt();
+
+    System.out.println("Digite a segunda nota");
+    n2 = teste.nextInt();
+
+    System.out.println("Digite a terceira nota");
+    n3 = teste.nextInt();
+
+    System.out.println("Digite a quarta nota");
+    n4 = teste.nextInt();
+    
+    n5 = (n1 + n2 + n3 + n4) / 4;
+
+    System.out.println("A media das notas foi:" + n5);
+  }
+}
